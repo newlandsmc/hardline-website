@@ -128,6 +128,12 @@ footer {
   z-index: 1000;
 }
 
+.landing-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 #landing-body #main-nav {
   background-color: rgb(0 0 0 / 30%);
 }
@@ -334,6 +340,14 @@ h4, .title h3, .sub-title h2 {
   z-index: 2;
 }
 
+.join-section {
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
 div.shadow {
   all: initial !important;
   position: absolute !important;
@@ -389,8 +403,17 @@ li.rules, .split-content li {
 .content h3 {
   margin: 1em 0 1em 0;
   font-family: 'mctext';
+  font-size: 2em;
+  color: var(--focus);
+}
+
+.content h4 {
+  margin: 1em 0 1em 0;
+  font-family: 'mctext';
   font-size: 1.5em;
   color: var(--focus);
+  text-shadow: none;
+  text-align: left;
 }
 
 #landing h3 {
@@ -407,7 +430,7 @@ li.rules, .split-content li {
   width: 50%;
 }
 
-#landing div.narrow {
+div.narrow {
   width: 33%;
 }
 
@@ -450,8 +473,8 @@ button:hover {
   font-family: 'mctext';
   font-size: 2em;
   padding: 10px 30px;
-  border-radius: 15px;
-  background-color: rgb(0 0 0 / 35%);
+  background-color: rgb(0 0 0 / 50%);
+  border-radius: 5px;
   display: inline-block;
   color: var(--content);
   text-shadow: 0 2px black, 2px 0 black;
@@ -725,6 +748,10 @@ button:hover {
 
 @media (orientation: landscape){
   @media (max-width: 1250px) {
+    section section {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
     .title h2, .sub-title h1, #landing h1{
       font-size: 2.5em;
     }
@@ -747,7 +774,7 @@ button:hover {
       background-color: rgb(15 15 15 / 100%);
       position: absolute;
     }
-    #landing div, #landing div.narrow {
+    #landing div {
       width: 100%;
     }
   }
@@ -766,10 +793,14 @@ button:hover {
 
 @media (orientation: portrait) {
   @media (max-width: 1500px) {
+    section section {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
     .title h2, .sub-title h1, #landing h1{
       font-size: 3em;
     }
-    #landing div, #landing div.narrow {
+    #landing div, div.narrow {
       width: 100%;
     }
   }
@@ -810,12 +841,17 @@ button:hover {
     #main-nav li a, #main-nav li p {
       padding: 12px 8px;
     }
-    #landing section {
-      flex-direction: column;
-      max-width: 90%;
+    #landing section, .join-section {
+      flex-direction: column !important;
+      max-width: 90% !important;
+      padding-left: 50px !important;
+      padding-right: 50px !important;
     }
   }
   @media (max-width: 650px) {
+    .landing-logo {
+      max-width: 75%;
+    }
     .content, #main-nav > div {
       width: 100%;
     }
@@ -854,6 +890,9 @@ button:hover {
     }
     .content h3, #landing h3, .overlay h3 {
       font-size: 1.2em;
+    }
+    .content h4 {
+      font-size: 1.0em;
     }
     section img.small {
       width: 50%;

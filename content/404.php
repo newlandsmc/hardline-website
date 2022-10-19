@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav id="mobile-nav">
-      <a href="/"><img src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" /></a>
+      <a href="/"><img src="/assets/images/logo.webp" alt="Hardline SMP Logo" /></a>
       <div>
         <!--A fake / hidden checkbox is used as click reciever, so you can use the :checked selector on it.-->
         <input type="checkbox"></input>
@@ -30,7 +30,7 @@
     <nav id="main-nav">
       <div style="height: 100%; display: flex; justify-content: space-around;">
         <div class="hide-mobile" style="height: 100%;">
-          <a href="/" style="height: 100%; width: 110px; display: flex; align-items: center; justify-content: center;"><img src="/assets/images/logo.webp" alt="SemiVanilla MC Logo" /></a>
+          <a href="/" style="height: 100%; width: 110px; display: flex; align-items: center; justify-content: center;"><img src="/assets/images/logo-small.webp" alt="Hardline SMP Logo" /></a>
         </div>
         <ul>
           <li><a href="/#scroll-top">Home</a></li>
