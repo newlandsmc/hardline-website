@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hardline SMP | 1.19.2 PVP Minecraft Server</title>
+    <title>Hardline SMP | 1.19.3 PVP Minecraft Server</title>
     <?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'] .'/assets/templates/seo.html'); ?>
     <script async type="module" src="/assets/javascript/jquery-3.6.0.min.js"></script>
     <script defer async type="module" src="/assets/javascript/nav.js"></script>
@@ -99,7 +99,7 @@
       <div class="title" style="position: absolute; z-index: 3;">
         <div class="landing-title-text" style="text-align: center;">
           <img class="landing-logo" src="/assets/images/logo.webp" alt="Hardline SMP Minecraft Style Logo" />
-          <h2 style="margin: 30px;">1.19.2 PVP SURVIVAL</h2>
+          <h2 style="margin: 30px;">1.19.3 PVP SURVIVAL</h2>
           <p class="ip hide-mobile">play.hardlinesmp.com</p>
           <div style="width:100%">
             <button type="button" id="ip-button" onclick="copyToClipboard('ip-button','play.hardlinesmp.com','#scroll-join')">Join Now!</button>
@@ -220,7 +220,7 @@
                   </div>
                   <div>
                     <h4>minecraft-server.net</h4>
-                    <a href="https://minecraft-server.net/vote/semivanilla_mc/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
+                    <a href="https://minecraft-server.net/vote/hardlinesmp_mc/" target="_blank"><button type="button" id="vote4" onclick="buttonClicked('vote4')">Vote</button></a>
                   </div>
                   <div>
                     <h4>serverlist101.com</h4>
@@ -248,7 +248,7 @@
                   <ol style="text-align: left;">
                     <li>In Minecraft, go to <strong>Multiplayer</strong> and then <strong>Add Server</strong>.</li>
                     <li>Enter a name, this can be anything you want!</li>
-                    <li>Enter "play.semivanilla.com" for the <strong>Server Address</strong>.</li>
+                    <li>Enter "play.hardlinesmp.com" for the <strong>Server Address</strong>.</li>
                     <li>Click <strong>Done</strong>.</li>
                     <li>Select our server and join!</li>
                   </ol>
@@ -267,7 +267,7 @@
                     <li>In Minecraft, go to <strong>Play</strong> and then <strong>Servers</strong>.</li>
                     <li>Scroll to the bottom and tap on <strong>Add Server</strong>.
                     <li>Enter a name, this can be anything you want!</li>
-                    <li>Enter "play.semivanilla.com" for the <strong>Server Address</strong>. Leave the default port (19132).</li>
+                    <li>Enter "play.hardlinesmp.com" for the <strong>Server Address</strong>. Leave the default port (19132).</li>
                     <li>Tap <strong>Play</strong>!</li>
                   </ol>
                 </div>
@@ -294,7 +294,8 @@
     </main>
     <footer>
       <div id="footer-divider"></div>
-      <p style="font-family: 'mctext'; width: 100%; text-align: center;">A new PVP survival Minecraft server.</p>
+      <p style="font-family: 'mctext'; width: 100%; text-align: center;">Checkout <a href="https://superminecraftservers.com">Super Minecraft Servers</a> to find the the best Minecraft
+servers.</p>
       <ul>
         <li><a class="scroll" href="#scroll-rules">Rules</a></li>
         <li><a class="scroll" href="#scroll-join">How to Join</a></li>
